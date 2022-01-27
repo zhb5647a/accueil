@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Noto+Serif:wght@700&display=swap');
+body{
+    font-family:'Noto sans ital' ;
+    
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color:lightgray;
+    transition-duration: 1s ;
+    transition-property: background-color;
+    justify-content:space-between;
+    
+}
+nav:hover{
+    background-color: rgb(245,245,245);
+
+}
+input{
+    
+margin: 13px;
+
+
+}    
+    
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+   
+}
+nav ul li{
+    display: flex;
+    margin-left : 100px;
+    cursor: pointer;
+    width: px;
+    height: 40px;
+    color:blue;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}    
+
+
+
+nav ul li:hover{
+    color: black;
+    
+}
+header h1{
+    display: flex;
+    align-self: center;
+}
+
